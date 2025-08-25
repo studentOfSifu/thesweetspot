@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<!-- Declares the document type as HTML5 -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- Sets character encoding to UTF-8 for proper text rendering -->
+
+  <link rel="icon" href="images/logotab.png" type="image/x-icon">
+  <!-- Adds a favicon (tab icon) for the website -->
+
+  <title>Cakes</title>
+  <!-- Sets the page title shown in the browser tab -->
+
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <!-- Links to the external CSS file for styling -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Imports Font Awesome icons for use in buttons or navigation -->
+</head>
+
+<body>
+<header>
+    <!-- Website header with logo and navigation menu -->
+
+    <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+    <!-- Clickable logo that links back to the homepage -->
+
+    <nav>
+    <ul>
+        <!-- Navigation links to other pages -->
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="promotion.html">Promotion & News</a></li>
+        <li><a href="joinus.html">Join Us</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="delivery.html"><i class="fa-solid fa-truck"></i></a></li>
+        <!-- Delivery icon using Font Awesome -->
+    </ul>
+    </nav>
+</header>
+
+<main>
+  <!-- Main content section for the Cakes menu -->
+
+  <section class="titles">
+    <!-- Section title for the page -->
+    <h1>CAKES</h1>
+  </section>
+
+  <div class="menu-grid">
+    <!-- Grid layout for displaying cake items -->
+
+    <!-- Cake Item 1: National Cake -->
+    <div class="menu-item">
+      <img src="images/nationalcake.webp" alt="National Cake">
+      <h2>National Cake</h2><br>
+      <strong>LIMITED TIME!</strong><br><br>
+      <ul>
+        <li>Flavor Profile: Golden butter sponge infused with fragrant pandan, layered with silky coconut cream, and a whisper of tropical palm sugar caramel.</li>
+        <li>Ingredients: Pandan, caramel, coconut milk, flour, butter, sugar, eggs, vanilla extract, and buttermilk.</li>
+        <li>Price: RM 17.00 Per Slice</li>
+      </ul>
+      <!-- Add to Cart Button with hover animation -->
+      <button style="
+              background-color:#ff85a2;
+              color:#fff;
+              padding:14px 28px;
+              font-size:18px;
+              border:none;
+              border-radius:40px;
+              cursor:pointer;
+              box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+              transition: all 0.3s ease;
+            "
+            onmouseover="this.style.backgroundColor='#ff5c85'; this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 12px rgba(0,0,0,0.3)'"
+            onmouseout="this.style.backgroundColor='#ff85a2'; this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'">🛒</button>
+    </div>
+
+    <!-- Cake Item 2: Full Strawberry Cake -->
+    <div class="menu-item">
+      <img src="images/cake.jpg" alt="Strawberry cake">
+      <h2>Full Strawberry Cake</h2><br>
+      <strong>TOP SELLING!</strong><br><br>
+      <ul>
+        <li>Flavor Profile: Strong fresh strawberry aroma from real strawberries or strawberry puree.</li>
+        <li>Ingredients: Strawberry, real strawberry jam, flour, eggs, sugar, milk, butter, vanilla extract.</li>
+        <li>Price: RM 18.00 Per Slice</li>
+      </ul>
+      <button style="
+              background-color:#ff85a2;
+              color:#fff;
+              padding:14px 28px;
+              font-size:18px;
+              border:none;
+              border-radius:40px;
+              cursor:pointer;
+              box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+              transition: all 0.3s ease;
+              margin-top: 1em;
+            "
+            onmouseover="this.style.backgroundColor='#ff5c85'; this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 12px rgba(0,0,0,0.3)'"
+            onmouseout="this.style.backgroundColor='#ff85a2'; this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'">🛒</button>
+    </div>
+
+    <!-- Cake Item 3: Chocolate Banana Cake -->
+    <div class="menu-item">
+      <img src="images/chocobanana.jpeg" alt="Chocolatebanana cake">
+      <h2>Chocolate Banana Cake</h2>
+      <ul>
+        <li>Flavor Profile: Sweet, fruity, and deeply chocolatey.</li>
+        <li>Ingredients: Ripe bananas, cocoa powder, flour, sugar, eggs (or vegan alternatives), butter or oil.</li>
+        <li>Price: RM 8.50 Per Slice</li>
+      </ul>
+      <button style="
+              background-color:#ff85a2;
+              color:#fff;
+              padding:14px 28px;
+              font-size:18px;
+              border:none;
+              border-radius:40px;
+              cursor:pointer;
+              box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+              transition: all 0.3s ease;
+              margin-top: 4.5em;
+            "
+            onmouseover="this.style.backgroundColor='#ff5c85'; this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 12px rgba(0,0,0,0.3)'"
+            onmouseout="this.style.backgroundColor='#ff85a2'; this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'">🛒</button>
+    </div>
+
+    <!-- Cake Item 4: Burnt Cheesecake -->
+    <div class="menu-item">
+      <img src="images/burntcheesecake.jpeg" alt="Burnt Cheesecake">
+      <h2>Burnt Cheesecake</h2>
+      <ul>
+        <li>Flavor Profile: Mildly sweet with smoky undertones and hints of vanilla.</li>
+        <li>Ingredients: Cream cheese, eggs, sugar, heavy cream, flour, and vanilla extract.</li>
+        <li>Price: RM 16.00 Per Slice</li>
+      </ul>
+      <button style="
+              background-color:#ff85a2;
+              color:#fff;
+              padding:14px 28px;
+              font-size:18px;
+              border:none;
+              border-radius:40px;
+              cursor:pointer;
+              box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+              transition: all 0.3s ease;
+              margin-top: 6em;
+            "
+            onmouseover="this.style.backgroundColor='#ff5c85'; this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 12px rgba(0,0,0,0.3)'"
+            onmouseout="this.style.backgroundColor='#ff85a2'; this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'">🛒</button>
+    </div>
+
+    <!-- Cake Item 5: Chocolate Lava Cake -->
+    <div class="menu-item">
+      <img src="images/chocolatelava.jpeg" alt="Chocolate Lava">
+      <h2>Chocolate Lava Cake</h2>
+      <ul>
+        <li>Flavor Profile: Deep, bittersweet chocolate with a hint of vanilla.</li>
+        <li>Ingredients: Dark chocolate, butter, eggs, sugar, flour</li>
+        <li>Price: RM 11.00 Per Slice</li>
+      </ul>
+      <button style="
+              background-color:#ff85a2;
+              color:#fff;
+              padding:14px 28px;
+              font-size:18px;
+              border:none;
+              border-radius:40px;
+              cursor:pointer;
+              box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+              transition: all 0.3s ease;
+              margin-top: 8em;
+            "
+            onmouseover="this.style.backgroundColor='#ff5c85'; this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 12px rgba(0,0,0,0.3)'"
+            onmouseout="this.style.backgroundColor='#ff85a2'; this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'">🛒</button>
+    </div>
+
+    <!-- Cake Item 6: Lemon Cheesecake -->
+    <div class="menu-item">
+      <img src="images/lemoncheese.jpg" alt="Lemon Cheesecake">
+      <h2>Lemon Cheesecake</h2>
+      <ul>
+        <li>Flavor Profile: Zesty lemon with subtle vanilla and cream cheese tang.</li>
+        <li>Ingredients: Cream cheese, lemon juice and zest, sugar, double cream, biscuit crust.</li>
+        <li>Price: RM 17.00 Per Slice</li>
+      </ul>
+      <button style="
+              background-color:#ff85a2;
+              color:#fff;
+              padding:14px 28px;
+              font-size:18px;
+              border:none;
+              border-radius:40px;
+              cursor:pointer;
+              box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+              transition: all 0.3s ease;
+              margin-top: 6em;
+            "
+            onmouseover="this.style.backgroundColor='#ff5c85'; this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 12px rgba(0,0,0,0.3)'"
+            onmouseout="this.style.backgroundColor='#ff85a2'; this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'">🛒</button>
+    </div>
+
+    <!-- Cake Item 7: Tiramisu Cake -->
+    <div class="menu-item">
+      <img src="images/tiramisu.jpeg" alt="Tiramisu cake">
+      <h2>Tiramisu Cake</h2>
+      <ul>
+        <li>Flavor Profile: Rich coffee, subtle sweetness, and a hint of cocoa bitterness.</li>
+        <li>Ingredients: Eggs, sugar, flour, espresso, mascarpone, cream, cocoa powder.</li>
+        <li>Price: RM 20.50 Per Slice</li>
+      </ul>
+      <button style="
+              background-color:#ff85a2;
+              color:#fff;
+              padding:14px 28px;
+              font-size:18px;
+              border:none;
+              border-radius:40px;
+              cursor:pointer;
+              box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+              transition: all 0.3s ease;
+              margin-top: 6em;
+            "
+            onmouseover="this.style.backgroundColor='#ff5c85'; this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 12px rgba(0,0,0,0.3)'"
+            onmouseout="this.style.backgroundColor='#ff85a2'; this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'">🛒</button>
+    </div>
+    	<!-- Cake Item: New York Cheesecake -->
+<div class="menu-item">
+    <!-- Product image -->
+    <img src="images/nycheese.jpg" alt="New York Cheesecake">
+    
+    <!-- Product name -->
+    <h2>New York Cheesecake</h2>
+
+    <!-- Product details list -->
+    <ul>
+        <li>Flavor Profile: Mildly sweet, slightly tangy, and deeply indulgent.</li>
+        <li>Ingredients: Cream cheese, sugar, eggs, sour cream, vanilla, lemon juice, graham cracker crust.</li>
+        <li>Price: RM 19.00 Per Slice</li>
+    </ul>
+
+    <!-- Add to Cart button with hover animation -->
+    <button style="
+              background-color:#ff85a2;
+              color:#fff;
+              padding:14px 28px;
+              font-size:18px;
+              border:none;
+              border-radius:40px;
+              cursor:pointer;
+              box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+              transition: all 0.3s ease;
+              margin-top: 5em;
+            "
+            onmouseover="this.style.backgroundColor='#ff5c85'; this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 12px rgba(0,0,0,0.3)'"
+            onmouseout="this.style.backgroundColor='#ff85a2'; this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'">🛒</button>
+</div>
+
+<!-- Cake Item: White Chocolate Cake -->
+<div class="menu-item">
+    <!-- Product image -->
+    <img src="images/whitechoco.jpeg" alt="White Chocolate Cake">
+    
+    <!-- Product name -->
+    <h2>White Chocolate Cake</h2>
+
+    <!-- Product details list -->
+    <ul>
+        <li>Flavor Profile: Sweet, creamy, and subtly vanilla-infused.</li>
+        <li>Ingredients: White chocolate, flour, butter, sugar, eggs, vanilla extract, and buttermilk.</li>
+        <li>Price: RM 17.00 Per Slice</li>
+    </ul>
+
+    <!-- Add to Cart button with hover animation -->
+    <button style="
+              background-color:#ff85a2;
+              color:#fff;
+              padding:14px 28px;
+              font-size:18px;
+              border:none;
+              border-radius:40px;
+              cursor:pointer;
+              box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+              transition: all 0.3s ease;
+              margin-top: 7em;
+            "
+            onmouseover="this.style.backgroundColor='#ff5c85'; this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 12px rgba(0,0,0,0.3)'"
+            onmouseout="this.style.backgroundColor='#ff85a2'; this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'">🛒</button>
+</div>
+
+<!-- Cake Item: Caramel Cake -->
+<div class="menu-item">
+    <!-- Product image -->
+    <img src="images/caramel.jpeg" alt="Caramel Cake">
+    
+    <!-- Product name -->
+    <h2>Caramel Cake</h2>
+
+    <!-- Product details list -->
+    <ul>
+        <li>Flavor Profile: Deep caramel notes with hints of brown sugar and vanilla.</li>
+        <li>Ingredients: Flour, butter, sugar, eggs, milk, and homemade or store-bought caramel sauce.</li>
+        <li>Price: RM 18.00 Per Slice</li>
+    </ul>
+
+    <!-- Add to Cart button with hover animation -->
+    <button style="
+              background-color:#ff85a2;
+              color:#fff;
+              padding:14px 28px;
+              font-size:18px;
+              border:none;
+              border-radius:40px;
+              cursor:pointer;
+              box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+              transition: all 0.3s ease;
+              margin-top: 6em;
+            "
+            onmouseover="this.style.backgroundColor='#ff5c85'; this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 12px rgba(0,0,0,0.3)'"
+            onmouseout="this.style.backgroundColor='#ff85a2'; this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'">🛒</button>
+</div>
+
+</div> <!-- End of .menu-grid -->
+</main> <!-- End of main content -->
+<footer>
+    <!-- Footer section containing social media links, contact info, and legal notice -->
+
+    <div class="webpage">
+        <!-- Social media links for brand presence -->
+        <a href="https://x.com/">X</a>
+        <a href="https://www.instagram.com/">Instagram</a>
+        <a href="https://www.whatsapp.com/download">Whatsapp</a>
+        <br><br>
+    </div>
+
+    <table>
+        <!-- Contact information table with address, hours, phone, and email -->
+        <tr>
+            <th>Address:</th>
+            <th>Operation Hour:</th>
+            <th>Contact Number:</th> 
+            <th>Email:</th> 
+        </tr>
+        <tr>
+            <td>
+                55, Jalan Nautika B U20/B, 
+                <br>Pusat Komersial Tsb, 
+                <br>47000 Sungai Buloh,
+                <br>Selangor
+            </td> 
+            <td>10am-11pm Daily.</td>
+            <td><a href="tel:03-41443210">03-41443210</a></td>
+            <!-- Clickable phone number for mobile users -->
+
+            <td><a href="mailto:thesweetspot@gmail.com">thesweetspot@gmail.com</a></td>
+            <!-- Clickable email link for quick contact -->
+        </tr>
+    </table>
+
+    <section class="copyright">
+        <!-- Legal copyright notice -->
+        <h5>
+            Copyright&copy;2025 by The Sweet Spot Sdn Bhd.
+            199801011862 (467990-X) All Rights Reserved.
+        </h5>
+    </section>
+</footer>
+
+</body>
+</html>

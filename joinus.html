@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<!-- Declares the document type as HTML5 -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Sets character encoding to UTF-8 for proper text rendering -->
+
+  <title>Join Sweet Spot Bakery</title>
+  <!-- Sets the page title shown in the browser tab -->
+
+  <link rel="stylesheet" href="index.css">
+  <!-- Links to external CSS file for shared styling -->
+
+  <link rel="icon" href="images/logotab.png" type="image/x-icon">
+  <!-- Adds a favicon (tab icon) for the website -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Imports Font Awesome icons for use in navigation -->
+
+  <style>
+    /* Inline CSS for styling the Join Us page */
+
+    main {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom, #fffbe6, #ffe6ea);
+      color: #502c2c;
+    }
+
+    .hiring {
+      /* Section for hiring announcement */
+      text-align: center;
+      padding: 60px 20px 30px;
+      background-color: #ffedf3;
+    }
+
+    .hiring h1 {
+      font-size: 2.8em;
+      color: #d8627a;
+      padding-top: 2em;
+    }
+
+    .hiring p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    .job-listings {
+      /* Flex container for job cards */
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 30px 20px;
+      gap: 20px;
+    }
+
+    .job-card {
+      /* Individual job card styling */
+      background-color: #fff5fa;
+      border-radius: 12px;
+      padding: 25px;
+      width: 280px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .job-card:hover {
+      /* Hover effect for job cards */
+      transform: translateY(-5px);
+    }
+
+    .job-card h2 {
+      margin-bottom: 10px;
+      color: #d04f6e;
+    }
+
+    .job-card p {
+      margin: 0 0 8px;
+    }
+
+    .apply-section {
+      /* Section for application form */
+      background-color: #fff0f5;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .apply-section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .applied-btn {
+      /* Styling for external applied button (not used here) */
+      display: inline-block;
+      padding: 12px 20px;
+      background-color: #fd7c96;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .applied-btn:hover {
+      background-color: #e05675;
+    }
+
+    form {
+      /* Styling for the application form */
+      max-width: 500px;
+      margin: 0 auto;
+      display: grid;
+      gap: 15px;
+    }
+
+    form input,
+    form select,
+    form textarea {
+      /* Input field styling */
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #f4c2d4;
+      font-size: 1em;
+    }
+
+    form textarea {
+      /* Textarea specific styling */
+      height: 100px;
+      resize: vertical;
+    }
+
+    form .btn {
+      /* Submit button styling */
+      background-color: #fa7294;
+      color: white;
+      padding: 14px;
+      border: none;
+      border-radius: 10px;
+      font-size: 1em;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-right: 20%;
+      margin-left: 20%;
+    }
+
+    form .btn:hover {
+      background-color: #d35b78;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <!-- Website header with logo and navigation menu -->
+
+    <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+    <!-- Clickable logo that links back to the homepage -->
+
+    <nav>
+      <ul>
+        <!-- Navigation links to other pages -->
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="promotion.html">Promotion & News</a></li>
+        <li><a href="joinus.html">Join Us</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="delivery.html"><i class="fa-solid fa-truck"></i></a></li>
+        <!-- Delivery icon using Font Awesome -->
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Main content section for job opportunities and application -->
+
+    <section class="hiring">
+      <!-- Hiring announcement section -->
+      <h1>We're Hiring at The Sweet Spot Bakery! 🍓</h1>
+      <p>Join our team and make life a little sweeter—one pastry at a time.</p>
+    </section>
+
+    <section class="job-listings">
+      <!-- Job listings section with individual job cards -->
+
+      <div class="job-card">
+        <h2>🧁 Pastry Chef</h2>
+        <p>Create mouthwatering desserts and explore new flavors.</p>
+        <span>Location: Kuala Lumpur | Full-time</span>
+      </div>
+
+      <div class="job-card">
+        <h2>🍰 Customer Service Assistant</h2>
+        <p>Serve smiles, take orders, and brighten someone’s day.</p>
+        <span>Location: Setapak | Part-time</span>
+      </div>
+
+      <div class="job-card">
+        <h2>🍩 Bakery Intern</h2>
+        <p>Learn the art of baking with our team of sweet-tastic creators.</p>
+        <span>Location: HQ | Internship</span>
+      </div>
+    </section>
+
+    <section class="apply-section">
+      <!-- Application form section -->
+      <h2>Apply Now 🎀</h2>
+      <form>
+        <!-- Form fields for user input -->
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <select required>
+          <option value="">Select Position</option>
+          <option value="pastry-chef">Pastry Chef</option>
+          <option value="customer-assistant">Customer Assistant</option>
+          <option value="intern">Intern</option>
+        </select>
+        <textarea placeholder="Why do you want to join?" required></textarea>
+        <a href="applied.html" class="btn">Submit</a>
+        <!-- Submit button linking to confirmation page -->
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <!-- Footer section with social links and contact info -->
+
+    <div class="webpage">
+      <!-- Social media links -->
+      <a href="https://x.com/">X</a>
+      <a href="https://www.instagram.com/">Instagram</a>
+      <a href="https://www.whatsapp.com/download">Whatsapp</a><br><br>
+    </div>
+
+    <table>
+      <!-- Contact information table -->
+      <tr>
+        <th>Address:</th>
+        <th>Operation Hour:</th>
+        <th>Contact Number:</th>
+        <th>Email:</th>
+      </tr>
+      <tr>
+        <td>
+          55, Jalan Nautika B U20/B,
+          <br>Pusat Komersial Tsb,
+          <br>47000 Sungai Buloh,
+          <br>Selangor
+        </td>
+        <td>10am-11pm Daily.</td>
+        <td><a href="tel:03-41443210">03-41443210</a></td>
+        <td><a href="mailto:thesweetspot@gmail.com">thesweetspot@gmail.com</a></td>
+      </tr>
+    </table>
+
+    <section class="copyright">
+      <!-- Legal copyright -->
+      <h5>Copyright&copy;2025 by The Sweet Spot Sdn Bhd. 199801011862 (467990-X) All Rights Reserved.</h5>
+    </section>
+  </footer>
+</body>
+</html>

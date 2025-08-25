@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- Declares the document type as HTML5 -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Sets character encoding to UTF-8 for proper text rendering -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Ensures responsive design on mobile devices -->
+
+  <link rel="icon" href="images/logotab.png" type="image/x-icon">
+  <!-- Adds a favicon (tab icon) for the website -->
+
+  <title>Application Received! 🍩</title>
+  <!-- Sets the page title shown in the browser tab -->
+
+  <link rel="stylesheet" href="success.css">
+  <!-- Links to external CSS file (if used for additional styling) -->
+
+  <style>
+  /* Inline CSS for styling the success page */
+
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom right, #fff0f5, #fffae6);
+    color: #5b2c2c;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .success-message {
+    /* Container for the success message content */
+    padding: 60px 20px;
+  }
+
+  h1 {
+    /* Main heading styling with animation */
+    font-size: 2.5em;
+    color: #e24d7b;
+    margin-bottom: 10px;
+    animation: popin 0.8s ease-out;
+  }
+
+  p {
+    /* Paragraph styling */
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #8d4f4f;
+  }
+
+  .image-area img {
+    /* Cupcake image styling with bounce animation */
+    width: 150px;
+    animation: bounce 1.2s infinite;
+  }
+
+  .home-btn {
+    /* "Back to Home" button styling */
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #fd7c96;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .home-btn:hover {
+    /* Button hover effect */
+    background-color: #e05675;
+  }
+
+  /* Sweet animations */
+
+  @keyframes popin {
+    /* Animation for heading pop-in effect */
+    0% { transform: scale(0.5); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+
+  @keyframes bounce {
+    /* Animation for cupcake bounce effect */
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+
+  /* Optional: Confetti effect placeholder */
+  .confetti::before {
+    /* Decorative confetti emojis with sparkle animation */
+    content: '🎉 🎊 🍬 ✨';
+    display: block;
+    font-size: 2em;
+    animation: sparkle 2s infinite;
+  }
+
+  @keyframes sparkle {
+    /* Animation for confetti sparkle effect */
+    0% { opacity: 0.3; }
+    50% { opacity: 1; transform: scale(1.1); }
+    100% { opacity: 0.3; }
+  }
+  </style>
+</head>
+
+<body>
+  <!-- Body content for the success message -->
+
+  <section class="success-message">
+    <!-- Main section containing the confirmation message -->
+
+    <div class="confetti"></div>
+    <!-- Decorative confetti animation using emojis -->
+
+    <h1>Thank You, Sweet Star! 🌟</h1>
+    <!-- Main heading with a playful tone -->
+
+    <p>Your application has been sprinkled with love and sent to our hiring team.</p>
+    <!-- Confirmation message with bakery-themed language -->
+
+    <div class="image-area">
+      <!-- Container for the animated cupcake image -->
+      <img src="images/cupcake.png" alt="Smiling Cupcake">
+    </div>
+
+    <a href="index.html" class="home-btn">Back to Home 🏠</a>
+    <!-- Button to return to the homepage -->
+  </section>
+</body>
+</html>
